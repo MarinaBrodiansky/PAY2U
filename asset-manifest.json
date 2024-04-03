@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pay2u/static/css/main.72bcae67.css",
-    "main.js": "/pay2u/static/js/main.8cb830b9.js",
+    "main.js": "/pay2u/static/js/main.47f23d38.js",
     "static/js/453.5e892d0d.chunk.js": "/pay2u/static/js/453.5e892d0d.chunk.js",
     "static/media/SFProText-Semibold.ttf": "/pay2u/static/media/SFProText-Semibold.fee27977166efaac0a2a.ttf",
     "static/media/SFProText-Regular.ttf": "/pay2u/static/media/SFProText-Regular.90da7ab18293ca42e335.ttf",
@@ -34,11 +34,11 @@
     "index.html": "/pay2u/index.html",
     "static/media/debit-card.svg": "/pay2u/static/media/debit-card.e7660a4cabfb491273d61edda79e262e.svg",
     "main.72bcae67.css.map": "/pay2u/static/css/main.72bcae67.css.map",
-    "main.8cb830b9.js.map": "/pay2u/static/js/main.8cb830b9.js.map",
+    "main.47f23d38.js.map": "/pay2u/static/js/main.47f23d38.js.map",
     "453.5e892d0d.chunk.js.map": "/pay2u/static/js/453.5e892d0d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.72bcae67.css",
-    "static/js/main.8cb830b9.js"
+    "static/js/main.47f23d38.js"
   ]
 }
