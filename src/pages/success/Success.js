@@ -46,7 +46,7 @@ const Success = ({
                     </Together>
                 )}
                 <Together>
-                    {theme != 'notenoughmoney' && <MainButton full='full' backgroundColor='active' text='Мои подписки' fontpx='17' />}
+                    {theme !== 'notenoughmoney' && <MainButton full='full' backgroundColor='active' text='Мои подписки' fontpx='17' />}
                     {theme === 'notenoughmoney' && <MainButton full='full' backgroundColor='active' text='К оформлению' fontpx='17' />}
                     <MainButton full='full' text='На главную' fontpx='17' />
                 </Together>
