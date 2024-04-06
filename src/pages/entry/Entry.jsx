@@ -4,10 +4,10 @@ import {
     AdditionalCard, CashbackCard, CashbackInfo, GreyButton, CardsContainer, Header, Promo, WelcomeCard,
     TransparentButton, Sub, SubHeader, Rub, CreditHeader, BankAccount, BankCard, Divider, BankInfo, Container, SubContainer
 } from "./Entry.style";
-import rub from "../../assets/images/rub.png";
-import subs from "../../assets/images/subs.png";
-import credit from "../../assets/images/credit-card.png";
-import icon from "../../assets/icons/icon.svg";
+// import rub from "../../assets/images/rub.png";
+// import subs from "../../assets/images/subs.png";
+// import credit from "../../assets/images/credit-card.png";
+// import icon from "../../assets/icons/icon.svg";
 import { Text } from "../../styles/mainStyles";
 
 const Entry = ({ }) => {
@@ -20,7 +20,7 @@ const Entry = ({ }) => {
         <Wrapper>
             <Container>
                 <Promo>
-                    <img src={icon} width={38} />
+                    {/* <img src={icon} width={38} /> */}
                     <p style={{fontSize: 17}}>Сергей</p>
                 </Promo>
                 <Promo>
@@ -30,7 +30,7 @@ const Entry = ({ }) => {
                             <SubHeader>352 ₽</SubHeader>
                             <GreyButton>Подробнее</GreyButton>
                         </CashbackInfo>
-                        <Rub src={rub} alt="rub" />
+                        {/* <Rub src={rub} alt="rub" /> */}
                     </CashbackCard>
                     <AdditionalCard>
                         <CreditHeader>Кредитная <br />карта</CreditHeader>
@@ -76,7 +76,7 @@ const Entry = ({ }) => {
                             <Text>Возьмите свои подписки под контроль и получайте выгоду!</Text>
                             <TransparentButton>Подробнее</TransparentButton>
                         </CashbackInfo>
-                        <Sub src={subs} alt="subs" />
+                        {/* <Sub src={subs} alt="subs" /> */}
                     </WelcomeCard>
                 </SubContainer>
             </Container>
