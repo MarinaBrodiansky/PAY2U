@@ -1,12 +1,9 @@
 import MainButton from "../button/MainButton";
 import { BoldText, Divider, GreenLabel, GreenText, MainText, SubText, NotActive, Container, Row, Image, Elem, Justify, JustifyRow } from "./Manage.style";
 
-const Manage = ({
-    active,
-    found,
-    newsub,
-    ...props
-}) => {
+
+// eslint-disable-next-line react/prop-types, no-unused-vars
+const Manage = ({active, found, newsub, ...props}) => {
 
     return (
         <>
@@ -30,7 +27,7 @@ const Manage = ({
                     </JustifyRow>
                     <BoldText>349 ₽/<Elem>мес</Elem></BoldText>
                     {(!found && !newsub) && <MainButton full='full' text='Управлять подпиской' />}
-                    {(newsub && !found) && <MainButton full='full' text='Посмотреть тарифы' backgroundColor='active' link='tariffs' />}
+                    {(newsub && !found) && <MainButton full='full' text='Посмотреть тарифы' backgroundColor='active' link='/pay2u/tariffs' />}
                 </Container>
                 :
                 <NotActive>

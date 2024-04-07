@@ -4,10 +4,8 @@ import MainButton from "../../components/button/MainButton";
 import { Wrapper } from "../../styles/mainStyles";
 import HeaderBack from "../../components/headerBack/HeaderBack";
 
-const Tariffs = ({
-    newsub,
-    ...props
-}) => {
+// eslint-disable-next-line react/prop-types, no-unused-vars
+const Tariffs = ({newsub, ...props}) => {
     return (
         <Wrapper>
             <HeaderBack />
@@ -27,7 +25,7 @@ const Tariffs = ({
                 <Tariff />
                 <Tariff />
                 {!newsub && <MainButton full='full' backgroundColor='active' fontpx='17' text='Изменить тариф' />}
-                {newsub && <MainButton full='full' backgroundColor='active' fontpx='17' text='Оформить подписку' link='subscribe' />}
+                {newsub && <MainButton full='full' backgroundColor='active' fontpx='17' text='Оформить подписку' link='/pay2u/subscribe' />}
             </Container>
         </Wrapper>
     );

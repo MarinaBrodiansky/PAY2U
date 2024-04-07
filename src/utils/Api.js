@@ -14,9 +14,6 @@ class Api {
     getCategories() {
       return fetch(`${this._baseUrl}/categories`, {
         method: 'GET',
-        headers: {
-          Authorization: 'Token',
-        },
       })
         .then((res) => this._checkResponse(res));
     }

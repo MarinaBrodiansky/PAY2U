@@ -3,8 +3,7 @@ import HeaderBack from "../../components/headerBack/HeaderBack";
 import { Input, Wrapper } from "../../styles/mainStyles";
 import { BoldText, Container, Image, Justify, JustifyRow, MainText, Reminder, Row, SubText } from "./Subscribe.style";
 
-const Subscribe = ({
-}) => {
+const Subscribe = () => {
     return (
         <Wrapper>
             <HeaderBack />
@@ -36,7 +35,7 @@ const Subscribe = ({
                     <h3>К оплате:</h3>
                     <h3>299 ₽</h3>
                 </JustifyRow>
-                <MainButton full='full' fontpx='17' text='Оплатить' backgroundColor='active' link='/errornotenough' />
+                <MainButton full='full' fontpx='17' text='Оплатить' backgroundColor='active' link='pay2u/errornotenough' />
             </Container>
         </Wrapper>
     );

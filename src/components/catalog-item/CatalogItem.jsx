@@ -1,11 +1,11 @@
-import popcorn from '../../assets/images/3d-casual-life-film-clapper-popcorn-and-movie-tickets-1.png';
 import { Container, Img, Title } from './CatalogItem.style';
 
-const CatalogItem = ({}) => {
+// eslint-disable-next-line react/prop-types
+const CatalogItem = ({ name, icon }) => {
     return (
         <Container to='theme'>
-            <Title>Кино, сериалы</Title>
-            <Img src={popcorn} alt='pop' />
+            <Title>{name}</Title>
+            <Img src={icon} alt='pop' />
         </Container>
     );
 }

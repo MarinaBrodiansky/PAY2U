@@ -18,7 +18,7 @@ const Found = () => {
                         <label>С правилами сервиса ознакомлен</label>
                     </Row>
                 </Main>
-                <MainButton full='full' backgroundColor='active' fontpx='17' text='Синхронизировать подписки' link='/successmove' />
+                <MainButton full='full' backgroundColor='active' fontpx='17' text='Синхронизировать подписки' link='/pay2u/successmove' />
             </Container>
         </Wrapper>
     );
