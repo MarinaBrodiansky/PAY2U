@@ -1,8 +1,16 @@
-# React + Vite
+# PAY2U
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## проект выполнен по макету с помощью
+* Styled Components
+* React
+* Swiper
 
-Currently, two official plugins are available:
+## Для запуска проекта:
+### git clone
+### npm install
+### npm run dev
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## GitHubPages
+https://marinabrodiansky.github.io/pay2u/
+
+
