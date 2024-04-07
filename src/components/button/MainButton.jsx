@@ -2,14 +2,8 @@ import { ButtonActive, ButtonGrey, Info } from "./MainButton.style";
 import coupon from "../../assets/icons/coupon.svg"
 import { useNavigate } from "react-router-dom";
 
-const MainButton = ({
-    backgroundColor,
-    text,
-    fontpx,
-    full,
-    link,
-    ...props
-}) => {
+// eslint-disable-next-line react/prop-types, no-unused-vars
+const MainButton = ({backgroundColor, text, fontpx, full, link, ...props}) => {
     var image;
     switch (text) {
         case 'coupon':

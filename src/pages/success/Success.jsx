@@ -8,11 +8,8 @@ import Recommend from "../../components/recomend/Recommend";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { FreeMode } from 'swiper/modules';
 
-const Success = ({
-    theme,
-    error,
-    ...props
-}) => {
+// eslint-disable-next-line react/prop-types, no-unused-vars
+const Success = ({theme, error, ...props}) => {
     return (
         <Wrapper>
             <Container>
@@ -48,7 +45,7 @@ const Success = ({
                 <Together>
                     {theme !== 'notenoughmoney' && <MainButton full='full' backgroundColor='active' text='Мои подписки' fontpx='17' />}
                     {theme === 'notenoughmoney' && <MainButton full='full' backgroundColor='active' text='К оформлению' fontpx='17' />}
-                    <MainButton full='full' text='На главную' fontpx='17' />
+                    <MainButton full='full' text='На главную' fontpx='17' link='/pay2u/activesubscriptions'/>
                 </Together>
             </Container>
             {theme === 'notfound' &&

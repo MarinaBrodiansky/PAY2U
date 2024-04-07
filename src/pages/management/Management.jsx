@@ -19,7 +19,7 @@ const Management = () => {
                     <BoldText>Перенести мои подписки</BoldText>
                 </Action>
                 <Divider />
-                <Action>
+                <Action to='/pay2u/'>
                     <img src={newsub} alt="new" />
                     <BoldText>Подключить новый сервис</BoldText>
                 </Action>
@@ -27,7 +27,7 @@ const Management = () => {
                 <Manage active='active' />
                 <Manage active='active' />
                 <Manage active='active' />
-                <BoldText>Неаквтиные</BoldText>
+                <BoldText>Неактивные</BoldText>
                 <Manage />
             </Container>
         </Wrapper>

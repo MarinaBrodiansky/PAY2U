@@ -14,6 +14,7 @@ export const Skip = styled.button`
 
     font-size: 14px;
     font-weight: 600;
+    cursor: pointer;
 `;
 
 export const Container = styled.div`

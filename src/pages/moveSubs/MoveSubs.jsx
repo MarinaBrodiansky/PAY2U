@@ -16,7 +16,7 @@ const MoveSubs = () => {
                     <label>Введите номер телефона</label>
                     <Input type="number" />
                 </div>
-                <MainButton full='full' backgroundColor='active' fontpx='17' text='Найти подписки' link='/pay2u/found' />
+                <MainButton full='full' backgroundColor='active' fontpx='17' text='Найти подписки' link='found' />
             </Container>
         </Wrapper>
     );

@@ -1,18 +1,22 @@
 import Expense from "../../components/expense/Expense";
 import HeaderBack from "../../components/headerBack/HeaderBack";
 import { Wrapper } from "../../styles/mainStyles";
+// eslint-disable-next-line no-unused-vars
 import { BoldText, Card, Container, MainPart, Row, SubText, Image, Sum, InfoCard, BankInfo, BankCard, MainText, Divider } from "./Expenses.style";
-import { useState, useEffect } from 'react'
-import { BottomSheet } from 'react-spring-bottom-sheet'
+import { useState } from 'react'
+// import { BottomSheet } from 'react-spring-bottom-sheet'
 import 'react-spring-bottom-sheet/dist/style.css'
 
 const Expenses = () => {
+    // eslint-disable-next-line no-unused-vars
     const [open, setOpen] = useState(false)
 
+    // eslint-disable-next-line no-unused-vars
     function onOpen() {
         setOpen(true);
     }
 
+    // eslint-disable-next-line no-unused-vars
     function onDismiss() {
         setOpen(false)
     }

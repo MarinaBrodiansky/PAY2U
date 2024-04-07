@@ -19,7 +19,7 @@ export const Image = styled.div`
     border-radius: 16px;
     height: 48px;
     width: 48px;
-    background-color: var(--light-grey);
+    background-color: var(--light-grey);    
 `;
 
 export const BoldText = styled.p`

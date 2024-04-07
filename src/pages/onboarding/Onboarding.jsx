@@ -24,7 +24,7 @@ const Onboarding = () => {
         <Wrapper>
             <Header>
                 <img src={pay2u} alt="pay2you" />
-                <Skip onClick={handleSkipClick}>Пропустить</Skip>
+                <Skip onClick={handleSkipClick}>Пропустить →</Skip>
             </Header>
             <Swiper
                 grabCursor={true}

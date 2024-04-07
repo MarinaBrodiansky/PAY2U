@@ -1,11 +1,8 @@
 import MainButton from "../button/MainButton";
 import { BoldText, Label, Text, MainText, SubText, Container, Row, Image, Elem, Justify, ButtonLink, JustifyRow } from "./NewSubCard.style";
 
-const NewSubCard = ({
-    active,
-    hit,
-    ...props
-}) => {
+// eslint-disable-next-line react/prop-types, no-unused-vars
+const NewSubCard = ({active, hit, ...props}) => {
 
     return (
         <>

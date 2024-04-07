@@ -1,11 +1,11 @@
+// eslint-disable-next-line no-unused-vars
 import CatalogItem from "../../components/catalog-item/CatalogItem";
 import { Wrapper } from "../../styles/mainStyles";
 import { CatalogItems, Container, SubText } from "./CatalogTheme.style";
 import NewSubCard from "../../components/newSubCard/NewSubCard";
 import HeaderBack from "../../components/headerBack/HeaderBack";
 
-const CatalogTheme = ({
-}) => {
+const CatalogTheme = () => {
     return (
         <Wrapper>
             <HeaderBack />

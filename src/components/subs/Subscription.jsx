@@ -1,9 +1,7 @@
 import { BoldText, SubText, Container, Image, RightBold, RightSub } from "./Subscription.style";
 
-const Subscription = ({
-    text,
-    ...props
-}) => {
+// eslint-disable-next-line react/prop-types, no-unused-vars
+const Subscription = ({text, ...props}) => {
     return (
         <Container>
             <Image />
