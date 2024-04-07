@@ -6,9 +6,9 @@
 * Swiper
 
 ## Для запуска проекта:
-### git clone
-### npm install
-### npm run dev
+* git clone
+* npm install
+* npm run dev
 
 ## GitHubPages
 https://marinabrodiansky.github.io/pay2u/
