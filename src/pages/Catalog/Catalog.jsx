@@ -2,10 +2,9 @@ import CatalogItem from "../../components/catalog-item/CatalogItem";
 import { Wrapper } from "../../styles/mainStyles";
 import { CatalogItems, Container } from "./Catalog.style";
 
-const Catalog = ({
-}) => {
+const Catalog = () => {
     return (
-        <Wrapper>
+        <Wrapper id='catalogue'>
             <Container>
                 <h1>Каталог</h1>
             </Container>

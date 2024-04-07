@@ -16,10 +16,10 @@ import movie from "../../assets/icons/movie.svg";
 import music from "../../assets/icons/music.svg";
 import book from "../../assets/icons/book.svg";
 import sport from "../../assets/icons/sport.svg";
-import Expenses from "../expenses/Expenses";
+// import Expenses from "../expenses/Expenses";
 import HeaderBack from "../../components/headerBack/HeaderBack";
 
-const ActiveSubs = ({ }) => {
+const ActiveSubs = () => {
     return (
         <Wrapper>
             <HeaderBack />
@@ -45,7 +45,7 @@ const ActiveSubs = ({ }) => {
                     </div>
                 </SubMoney>
                 <Row>
-                    <MainButton backgroundColor='true' text='Каталог подписок' fontpx={17} full='full' />
+                    <MainButton backgroundColor='true' text='Каталог подписок' href='catalogue' fontpx={17} full='full' />
                     <MainButton text='coupon' link='promos' />
                 </Row>
             </Container>
@@ -95,7 +95,7 @@ const ActiveSubs = ({ }) => {
                         <CatalogText>Спорт</CatalogText>
                     </Catalog>
                 </JustifyRow>
-                <MainButton link='/catalog' full='full' text='Перейти в каталог' fontpx='17' />
+                <MainButton link='/pay2u/catalog' full='full' text='Перейти в каталог' fontpx='17' />
                 <Money>Рекомендуемое</Money>
                 <div>
                 <Swiper
